@@ -1,4 +1,4 @@
-=== Hello Elementor Child ===
+=== Hello Orgues Nouvelles ===
 
 Contributors: elemntor, KingYes, ariel.k, jzaltzberg, mati1000, bainternet
 Requires at least: 5.9
@@ -10,7 +10,7 @@ License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 
-The Hello Elementor Child Theme is a starter blank child theme for [Hello Elementor](https://wordpress.org/themes/hello-elementor/) theme.
+The Hello Orgues Nouvelles, est le thème définie pour le site orgues-nouvelles.org, il utlise le thème Hello Elementor Child Theme comme sous thème de [Hello Elementor](https://wordpress.org/themes/hello-elementor/) theme.
 
 == Description ==
 
