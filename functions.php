@@ -35,8 +35,4 @@ function hello_elementor_child_scripts_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20 );
 
-// Add custom functions
-require_once('orgues-nouvelles.php');
-require_once('export-import.php');
-require_once('shortcode.php');
-require_once('mon-compte.php');
+
