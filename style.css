@@ -13,3 +13,22 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 */
 
 /* Add your custom styles here */
+
+.woocommerce form .form-row span.woocommerce-input-wrapper span.description {
+    background: #f9fafa;
+    color: var(--sections-messages-color,#69727d);
+    border-radius: 3px;
+    padding: 1em;
+    margin: 10px 0 0;
+    clear: both;
+    display: block !important;
+    position: relative;
+}
+
+.woocommerce form .form-row span.woocommerce-input-wrapper span.description:before {
+    border-color: #f9fafa;
+}
+
+table td, table th {
+    border: none;
+}
