@@ -32,3 +32,11 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 table td, table th {
     border: none;
 }
+
+.woocommerce-info {
+    border-top-color: var(--e-global-color-e778dc5);
+}
+
+.woocommerce-info::before, .woocommerce-info a, .woocommerce-info a:visited {
+    color: var(--e-global-color-e778dc5);
+}
