@@ -37,6 +37,6 @@ table td, table th {
     border-top-color: var(--e-global-color-e778dc5);
 }
 
-.woocommerce-info::before, .woocommerce-info a, .woocommerce-info a:visited {
+.woocommerce-info::before, .woocommerce-info a, .woocommerce-info a:visited, .woocommerce-info a:hover, .woocommerce-info a:active {
     color: var(--e-global-color-e778dc5);
 }
