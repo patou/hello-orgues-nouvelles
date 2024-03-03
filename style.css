@@ -16,7 +16,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
 .woocommerce form .form-row span.woocommerce-input-wrapper span.description {
     background: #f9fafa;
-    color: var(--sections-messages-color,#69727d);
+    color: var(--sections-messages-color, #69727d);
     border-radius: 3px;
     padding: 1em;
     margin: 10px 0 0;
@@ -29,7 +29,8 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     border-color: #f9fafa;
 }
 
-table td, table th {
+table td,
+table th {
     border: none;
 }
 
@@ -37,6 +38,47 @@ table td, table th {
     border-top-color: var(--e-global-color-e778dc5);
 }
 
-.woocommerce-info::before, .woocommerce-info a, .woocommerce-info a:visited, .woocommerce-info a:hover, .woocommerce-info a:active {
+.woocommerce-info::before,
+.woocommerce-info a,
+.woocommerce-info a:visited,
+.woocommerce-info a:hover,
+.woocommerce-info a:active {
     color: var(--e-global-color-e778dc5);
+}
+
+/* affiche les captions comme une tooltip */
+.pub figure {
+    position: relative;
+}
+
+.pub figure figcaption {
+    display: none;
+}
+
+.pub figure:hover figcaption {
+    display: block;
+    position: absolute;
+    bottom: -35px;
+    left: 0px;
+    background-color: rgb(73 72 72 / 80%);
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    z-index: 10;
+}
+
+.pub figure:hover figcaption::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(73 72 72 / 80%) transparent;
+}
+
+.pub figure {
+    min-height: 100px;
 }
